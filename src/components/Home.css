@@ -1,0 +1,87 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.welcome-message h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.job-card {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.job-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.job-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form p {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.job-card button,
+.login-form button {
+  transition: background-color 0.3s;
+}
+
+.job-card button:hover,
+.login-form button:hover {
+  background-color: #45a049;
+}
